@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F00528A92A9F44B9AB2453F1"
+               BlueprintIdentifier = "8E2A1CCA0EC2420FAF60A1E4"
                BuildableName = "libPods-ESPPlaceholderTextView.a"
                BlueprintName = "Pods-ESPPlaceholderTextView"
                ReferencedContainer = "container:Pods.xcodeproj">
