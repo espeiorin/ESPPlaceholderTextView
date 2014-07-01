@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2BC2371F-ED90-4EC4-9DE0-B47F007B62E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Placeholder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E4133443-35E0-4930-A69F-042DE616A83F</key>
+		<string>ssh://github.com/xorna/ESPPlaceholderTextView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/Placeholder.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E4133443-35E0-4930-A69F-042DE616A83F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/xorna/ESPPlaceholderTextView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4133443-35E0-4930-A69F-042DE616A83F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4133443-35E0-4930-A69F-042DE616A83F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ESPPlaceholderTextView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

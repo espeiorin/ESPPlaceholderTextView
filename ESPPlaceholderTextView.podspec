@@ -2,9 +2,15 @@ Pod::Spec.new do |s|
   s.name             = "ESPPlaceholderTextView"
   s.version          = "1.0.0"
   s.summary          = "A custom UITextView with placeholder control."
+  s.description  = <<-DESC
+                   ESPPlaceholderTextView can easily imported and used in your code.
+
+                   [Or can be used directly in your storyboard](https://www.youtube.com/watch?v=HLOBhqwjdQ8)
+
+                   DESC
   s.homepage         = "https://github.com/xorna/ESPPlaceholderTextView"
   s.license          = 'MIT'
-  s.author           = { "André Gustavo Espeiorin" => "andre.espeiorin@gmail.com" }
+  s.author           = { "André Gustavo Espeiorin" => "andre.espeiorin@gmail.com" }
   s.source           = { :git => "https://github.com/xorna/ESPPlaceholderTextView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/espeiorin'
 
