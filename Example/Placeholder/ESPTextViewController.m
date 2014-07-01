@@ -16,12 +16,12 @@
 
 - (void) textViewDidBeginEditing:(UITextView *)textView
 {
-    NSLog(@"DID BEGIN");
+    NSLog(@"DID BEGIN EDITING");
 }
 
 - (BOOL) textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    NSLog(@"SHOULD");
+    NSLog(@"SHOULD CHANGE TEXT IN RANGE?");
     return YES;
 }
 
