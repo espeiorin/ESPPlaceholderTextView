@@ -1,0 +1,3 @@
+platform :ios, '7.0'
+
+pod 'ESPPlaceholderTextView', :git => 'https://github.com/xorna/ESPPlaceholderTextView.git'

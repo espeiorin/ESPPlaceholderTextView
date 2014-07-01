@@ -1,0 +1,14 @@
+PODS:
+  - ESPPlaceholderTextView (1.0.0)
+
+DEPENDENCIES:
+  - ESPPlaceholderTextView (from `https://github.com/xorna/ESPPlaceholderTextView.git`)
+
+EXTERNAL SOURCES:
+  ESPPlaceholderTextView:
+    :git: https://github.com/xorna/ESPPlaceholderTextView.git
+
+SPEC CHECKSUMS:
+  ESPPlaceholderTextView: 329d73d97d1c0fbb1649e7c6d55241163f01e3a2
+
+COCOAPODS: 0.33.1
