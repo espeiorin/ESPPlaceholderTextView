@@ -22,4 +22,34 @@ it simply add the following line to your Podfile:
 
 ### How to Use ESPPlaceholderTextView in your code
 
-Current Version (1.0.0) doesn't provide full support to use it in code, next release will bring it.
+Import Classes
+```objc
+#import <ESPPlaceholderTextView/ESPPlaceholderTextView.h>
+#import <ESPPlaceholderTextView/ESPPlaceholderControl.h>
+```
+
+Create ESPPlaceholderTextView instance
+```objc
+self.textView = [[ESPPlaceholderTextView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 200.0)];
+self.textView.placeholder = @"Placeholder";
+self.textView.placeholderColor = [UIColor lightGrayColor];
+```
+
+Create ESPPlaceholderControl instance
+```objc
+ESPPlaceholderControl *control = [[ESPPlaceholderControl alloc] init];
+```
+
+Connect both objects
+```objc
+control.owner = self.textView;
+self.textView.delegate = control;
+```
+
+#### BONUS FEATURE
+If you need (as always) to delegate UITextViewDelegate's methods for another object, you can assign this object to ESPPlaceholderControl targets.
+```objc
+control.targets = @[self];
+```
+
+They will work without any interference
