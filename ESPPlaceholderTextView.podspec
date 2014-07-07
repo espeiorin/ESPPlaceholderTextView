@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ESPPlaceholderTextView"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "A custom UITextView with placeholder control."
   s.description  = <<-DESC
                    ESPPlaceholderTextView can easily imported and used in your code.

@@ -38,7 +38,7 @@ shouldChangeTextInRange:(NSRange)range
                 @autoreleasepool {
                     if ([delegate respondsToSelector:@selector(textView:shouldChangeTextInRange:replacementText:)]) {
                         [delegate textView:textView
-                   shouldChangeTextInRange:range
+                   shouldChangeTextInRange:NSMakeRange(0, range.length)
                            replacementText:text];
                     }
                 }
@@ -49,7 +49,7 @@ shouldChangeTextInRange:(NSRange)range
             @autoreleasepool {
                 if ([delegate respondsToSelector:@selector(textView:shouldChangeTextInRange:replacementText:)]) {
                     [delegate textView:textView
-               shouldChangeTextInRange:range
+               shouldChangeTextInRange:NSMakeRange(0, range.length)
                        replacementText:text];
                 }
             }
