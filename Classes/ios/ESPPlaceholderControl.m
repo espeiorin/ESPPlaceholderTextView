@@ -28,9 +28,31 @@ shouldChangeTextInRange:(NSRange)range
     ESPPlaceholderTextView *textView = (ESPPlaceholderTextView *)aTextView;
     if ([textView.text isEqualToString:textView.placeholder]) {
         if (text.length > 0) {
+            if (textView.autocapitalizationType != UITextAutocapitalizationTypeNone) {
+                text = [text capitalizedString];
+            }
             textView.text = text;
             textView.textColor = textView.normalTextColor;
+            
+            for (id delegate in self.targets) {
+                @autoreleasepool {
+                    if ([delegate respondsToSelector:@selector(textView:shouldChangeTextInRange:replacementText:)]) {
+                        [delegate textView:textView
+                   shouldChangeTextInRange:range
+                           replacementText:text];
+                    }
+                }
+            }
             return NO;
+        }
+        for (id delegate in self.targets) {
+            @autoreleasepool {
+                if ([delegate respondsToSelector:@selector(textView:shouldChangeTextInRange:replacementText:)]) {
+                    [delegate textView:textView
+               shouldChangeTextInRange:range
+                       replacementText:text];
+                }
+            }
         }
         return NO;
     }
