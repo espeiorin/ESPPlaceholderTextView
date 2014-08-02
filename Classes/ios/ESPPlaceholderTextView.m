@@ -27,7 +27,9 @@
         position = [self positionFromPosition:[self beginningOfDocument]
                                        offset:0];
     } else {
-        self.selectable = YES;
+        if ([self respondsToSelector:@selector(setSelectable:)]) {
+            self.selectable = YES;
+        }
     }
     
     return [super caretRectForPosition:position];
